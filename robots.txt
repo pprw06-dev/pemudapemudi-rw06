@@ -1,0 +1,31 @@
+# ==========================================
+# ROBOTS.TXT - Pemuda Pemudi RW 06 | BTN Lintas Asri
+# ==========================================
+# Website: https://pemudapemudi-rw06.netlify.app
+# Deskripsi: Komunitas Pemuda Pemudi RW 06 BTN Lintas Asri, Muara Bungo
+# ==========================================
+
+# Mengizinkan semua crawler untuk mengakses website
+User-agent: *
+
+# Mengizinkan akses ke seluruh halaman utama
+Allow: /
+Allow: /index.html
+
+# Mengizinkan akses ke direktori assets (gambar, logo, dll)
+Allow: /assets/
+Allow: /assets/logo/
+Allow: /assets/gambar/
+
+# Mengizinkan akses ke file CSS dan JavaScript
+Allow: /style.css
+Allow: /script.js
+
+# Lokasi file sitemap
+Sitemap: https://pemudapemudi-rw06.netlify.app/sitemap.xml
+
+# Memberi jeda waktu untuk crawler (opsional)
+Crawl-delay: 1
+
+# Menentukan domain utama (opsional)
+Host: https://pemudapemudi-rw06.netlify.app
